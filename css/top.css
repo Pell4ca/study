@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+.mainvisual {
+    background-color: #ffed58;
+    clip-path: polygon(0 0, 100% 0,100% 80%, 0 100%);
+    padding: 70px 0 160px;
+    margin-bottom: 40px;
+}
+
+.mainvisual .inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mainvisual .text .catchphrase {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.mainvisual .text .catchphrase span {
+    background-color: #fff;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.mainvisual .text .description {
+    font-weight: 500;
+    line-height: 1.6;
+}
+
+.mainvisual .img {
+    min-width: 560px;
+}
