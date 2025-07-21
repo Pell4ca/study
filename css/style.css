@@ -64,3 +64,29 @@ a:hover {
     padding: 0 20px;
     margin: 0 auto;
 }
+
+.wapper {
+    min-width: 940px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.section-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 80px;
+    text-align: center;
+    position: relative;
+}
+
+.section-title::after {
+    content: "";
+    width: 80px;
+    height: 2px;
+    background-color: #000;
+    margin: 0 auto;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    right: 0;
+}
