@@ -65,7 +65,7 @@ a:hover {
     margin: 0 auto;
 }
 
-.wapper {
+.wrapper {
     min-width: 940px;
     padding: 0 20px;
     margin: 0 auto;
@@ -89,4 +89,9 @@ a:hover {
     bottom: -20px;
     left: 0;
     right: 0;
+}
+
+.highlight {
+    background: linear-gradient(transparent 50%, #fff390 50%);
+    font-weight: 700;
 }
