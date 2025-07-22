@@ -40,7 +40,7 @@
 
 .reason .item {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .reason .item li {
@@ -154,7 +154,7 @@
 .voice .item {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     margin-bottom: 40px;
 }
 
@@ -201,4 +201,27 @@
 .voice .item .text:nth-child(2)::after {
     transform: rotate(135deg);
     left: -10px;
+}
+
+.contact {
+    background-color: #ffed58;
+    clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
+    padding: 100px 60px;
+}
+
+.contact .inner {
+    text-align: center;
+}
+
+.contact .text {
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+.contact .btn {
+    background-color: #fff;
+    border: solid 1px #000;
+    display: inline-block;
+    font-size: 14px;
+    padding: 20px 60px;
 }
