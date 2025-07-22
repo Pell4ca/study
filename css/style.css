@@ -60,7 +60,7 @@ a:hover {
 }
 
 .wrapper-1080 {
-    min-width: 1120px;
+    max-width: 1120px;  /*max-widthがmin-widthになってた*/
     padding: 0 20px;
     margin: 0 auto;
 }
