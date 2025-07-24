@@ -180,3 +180,26 @@ a:hover {
     font-size: 12px;
     line-height: 1.8;
 }
+
+.contact {
+    background-color: #ffed58;
+    clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
+    padding: 100px 60px;
+}
+
+.contact .inner {
+    text-align: center;
+}
+
+.contact .text {
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+.contact .btn {
+    background-color: #fff;
+    border: solid 1px #000;
+    display: inline-block;
+    font-size: 14px;
+    padding: 20px 60px;
+}
